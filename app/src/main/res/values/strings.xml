@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Wei Tong</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- Buttons' text-->
+    <!--<string name="btnImGeek">当然可以，我是geek！</string>-->
+    <!--&lt;!&ndash;我有审美，有技术，有自信，没问题啦~&ndash;&gt;-->
+    <!--<string name="btnBarberSpoil">理发店把我剪丑了，要自强！</string>-->
+    <string name="btnSurvayNCase">调查和案例</string>
+    <string name="btnPsychology">心理建设，让这件事更靠谱</string>
+    <string name="btnHairLayers">层次是干什么的</string>
+    <string name="btnThin">打薄是干什么的</string>
+    <string name="btnTips">简单技巧</string>
+    <string name="btnToolsToBuy">工欲善其事必先利其器，剪刀套装</string>
+    <string name="btnToolsToFind">就地取材，实用小工具</string>
+    <string name="btnASolution">就这么做！</string>
+    <string name="btnBSolution">程序猿也有份</string>
+    <string name="btnExtension">简单了解，戳这里</string>
+
+    <!-- Subtitles' text -->
+    <string name="tvICan">这件事到底靠不靠谱？</string>
+    <string name="tvKnowledge">你需要知道什么？</string>
+    <string name="tvTools">你需要什么工具？</string>
+    <string name="tvSolution">一个十分可行的方案</string>
+    <string name="tvExtension">当你的geek病被引燃之后..</string>
+
+    <!--Strings of Survey and Case-->
+    <string name="sNCTitle">调查与案例</string>
+    <string name="emailAddress">258807919@qq.com</string>
+    <string name="sNCSurveyTitle">小调查：为什么要自己剪头发？</string>
+    <string name="sNCImGeek">当然可以，我是geek！有审美，有技术，有自信，没问题啦!</string>
+    <string name="sNCBarberSpoil">理发店把我剪丑了，要自强！</string>
+    <string name="sNCOther">我是因为...才要自己剪头发</string>
+    <string name="btnSendMail">提交</string>
+    <string name="sNCdeclare">摘自 世界时装之苑</string>
+    <string name="sNCArticle">受访的21位姑娘中：\n
+                                16位自己剪过刘海……\n
+                                11位出于好玩心态……\n
+                                8位把自己给玩坏了……\n
+                                7位出于理发师剪不出自己要的效果……\n
+                                6位剪得很成功……\n
+                                还是直接来看看她们的剪发自白吧！\n\n
+                                i_Cherry\n
+                                公务员\n
+                                剪发自白：曾经高三一整年都没去理发店，完全靠自己。因为齐刘海要常常修剪，费时又费钱，自己动手丰衣足食。一开始剪不齐就越剪越短，补救措施只好把刘海统统夹上。后来放下夹子已经可以中分了。\n\n
+                                唐韫\n
+                                制片人\n
+                                剪发自白：没错，电影里拿碗盖来剪刘海这种事情我真真儿做过！当时不信自己剪不好，不就是剪个刘海嘛，所以就“亲自操刀”，结果成功将刘海剪成了“心电图”，戴了一个礼拜帽子。“自己剪头发”这件事儿真是没勇气别尝试。\n\n
+                                高小一\n
+                                产品编辑\n
+                                剪发自白：曾经遇到某个理发师，对他说多了，剪不来，说少了，瞎发挥，看图拷贝还走样，对于语文是体育老师教的理发师，大概整个世界观只有一句剪坏了长几天就美了。既然如此那我宁愿亲手剪坏。自己剪的有时比理发师好。\n\n
+                                Mkiki\n
+                                幼儿教师\n
+                                剪发自白：剪个刘海剪了我大概半个多小时，总觉得这边长了，然后剪剪短，那边长了再修一修，结果！果然剪坏了……接着就大光明了一个多礼拜，每天晚上都会洗刘海，因为听说多洗洗会长得快……朋友看到我大光明了就猜到说，嘿嘿，是不是剪刘海失败了……为什么要自己剪刘海呢？原因纯粹只有一个:好玩……结果就把刘海玩坏了……唉……\n\n
+                                侧佴倾听\n
+                                4S店售后顾问\n
+                                剪发自白：长时间的维持一个发型就会寻求新鲜感，但每次改变完后多半后悔。如果剪坏了也不慌，重新花钱去店里再做，或者用发蜡固定直到养长能够再剪。一般剪好朋友评价都觉得很棒，挺不错的。\n\n
+                                三月兔\n
+                                财务\n
+                                剪发自白：后面的头发好久没有修过了，闲的无聊，发现好几根头发都分叉了，本来想想算了过段时间去修一修，可是越看越无法忍受，就拿起了小剪刀咔嚓咔嚓把分叉的地方都剪了，瞬间心情舒畅！
+                                不过后来还是去理发店好好修了一下发尾，定期修发尾才能使头发更健康！\n\n
+                                乐天\n
+                                编辑\n
+                                剪发自白：记得当时年纪小，好奇心泛滥自己剪了齐刘海。谁知一失足成千古恨，剪完之后我整个人都不好了，就像被那什么啃的似的，剁手的心都有了。只好天天把刘海分成中分向两边别起，假装小龙女。好在头发还是会长出来的，一个月之后又是一条好汉！奉劝各位还是找专业的人剪吧！\n\n
+                                Cindy\n
+                                HR\n
+                                剪发自白：工欲善其事，必先利其器，首先要准备一把锋利的剪刀。最好是在头发吹得7、8分干的情况下剪，别想一刀就剪好，可以把头发分成两层来剪，每次剪的发束不宜太厚，剪刀不要平着剪，这样会显得生硬，也不要一下剪得太多，留一点长度作为调整的余地。\n\n
+                                Iris\n
+                                职员\n
+                                剪发自白：在我念书那会儿十足的臭美，常常乱折腾发型，有那么几回理发的经历让我心有余悸…为什么理发师给不了我想要的发型？这档事有多难呢？\n
+                                那时的胆量可比现在大，随手一把不太专业的剪刀咔嚓咔嚓就飞起了自己的头发…这结果…悔的我肠子都青了…现在回忆起不懂事的那会儿，有谁没顶过傻到冒泡的发型陪着自己走过了最可贵的时光呢！\n\n
+                                李嘉陌\n
+                                职业经纪人\n
+                                剪发自白：不觉得自己剪头发有什么丢人，自己剪完全Ok。有时候赶时间，来不及去理发店剪上半小时，就自己剪起来，朋友一开始说和狗啃的似的，但时间长了熟能生巧，自己剪出门道来了就还不错。\n\n
+                                Nana\n
+                                业务执行\n
+                                剪发自白：小时候爱鼓捣洋娃娃，于是爱给她裁裁剪剪做衣服还有剪头发，换个美美造型陪着她，可是又怕剪坏了她。\n
+                                于是自己就成了自己的试验品，拿起剪刀咔擦咔擦，初次手生将自己剪成了西瓜刘海，可是一次生二次熟，虽然自己的头发惹人笑，却给了娃娃一个美美造型，于是心里也乐开了花。忆起自己的理发，虽然可笑，却是美美的童年回忆。\n\n
+                                白开水小姐\n
+                                秘书\n
+                                剪发自白：平时剪刘海会分三层来剪，最底下那层最短，接下来一层一层多一点。一般两周剪一次，每次一分钟就能搞定。我自己看起来还不错，可朋友会觉得没有店里剪得好。所以决定以后还是投奔理发店吧。\n\n
+                                汉娜儿\n
+                                学生\n
+                                剪发自白：我觉得每次理发店理发师都剪不出我要的效果，所以干脆就自己剪了。先铺4张报纸在地上，然后搬个小椅子坐在当中，拿个剪睫毛的剪刀竖着剪，不过经常会剪的越来越短，特别是左边比右边好剪，因为左边是右手剪的，技术还需修炼。\n\n
+                                香香\n
+                                职员\n
+                                剪发自白：每次去完理发店，总觉得理发师为自己剪得发型让人不太满意，而且常常要剪刘海，去理发店既要排队，有时还得花个大价钱，于是下定决心，网购一把剪刀，自己动手。\n
+                                其实自己剪发，大部分是依照原来的刘海厚度，优先剪掉中间的一小部分头发，每次少减，多次尝试，同时对耳边的发丝稍作修剪，让刘海有一个自然的弧度，再用打薄的剪刀，稍作整理，自己的发型基本就ok了，虽然不够精细，但是自己剪得刘海，无论多丑，心里依旧没有嫌弃的感觉哟。\n\n
+                                爱睡觉的加菲（这姑娘为别人剪头发居然成功了！）\n
+                                学生\n
+                                剪发自白：我的首次神剪是为我的同学边边剪头发。剪刀一把，她坐在阳台，我站着，镜子坚决不能给她。（毁了会被骂）花了40分钟左右，由长发剪成披肩中长发。\n
+                                在剪发过程中，由于紧张手抖剪成爬坡式发型，被边边一顿白眼，后来终于成功剪成u型发尾。大家都评价着说可爱甜美风被我塑造成功，边边在我的神剪下年轻了2岁不止。虽然她嘴上不承认但是心里暗喜美滋滋的。\n
+                                对我而言就是练手，好玩。对边边而言是被我苦求着长发太热，减了舒服，洗头方便，发质还会变好……反正是各种神吹。</string>
+
+    <!-- Strings of Psychology-->
+    <string name="psyTitle">心理建设</string>
+    <string name="psyArticle">看过了调查，你已经知道这个世界上不只是你有这个想法了吧？如果只是剪个刘海，方法成熟，成功率高，很多人都已经这样做了！\n
+    如果只是修剪长度，那么你需要掌握简单的发型知识，知道长度、层次、打薄这些基本的概念，剩下的事情，唯手熟尔。\n
+    如果想掌控整个发型，让自己进化成新人类，那么也不是不可能的，看看成功案例吧！</string>
+    <string name="btnpsyUrl1">自己剪头发也能美美哒</string>
+    <string name="btnpsyUrl2">我是个给自己剪发七年的姑娘，刚剃了油头</string>
+
+    <string name="btnpsyUrl3">有鲜肉 | 3位帅哥教你自己剪头发，脏直男1秒变男神！</string>
+    <string name="psyUrl1"><![CDATA[https://mp.weixin.qq.com/s?__biz=MjM5NjMxNDAxNA==&mid=200818982&idx=1&sn=7712980cda7e4fbd4ffd8c82b818dfe1&scene=24&srcid=0427qkjcMo2dLxHJvDgeShn9&pass_ticket=V3k3V%2FEC%2B1R%2Fk6Te2eJYxIWvnGoI9nuKjaInjTFGS5oVFDLMhLhLUTDQI3ZNVSJe#rd]]></string>
+    <string name="psyUrl2"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5ODY5MjQ5OA==&mid=400269367&idx=3&sn=4f2c2f5f6ec241c36dd8e7b57ff31ac7&scene=24&srcid=0427xemM1vPN4ZB5cKJXLagL#wechat_redirect]]></string>
+
+    <string name="psyUrl3"><![CDATA[http://mp.weixin.qq.com/s?__biz=Mjc0NzU0MzU0MA==&mid=210835124&idx=4&sn=aa49578bf0bb3094d909a6ff5114f4f1&scene=24&srcid=0427g19POioRRvkHKkm3ycrQ#wechat_redirect]]></string>
+    <string name="psyEnd">好了，亲爱的程序媛（好还有猿）们，Go！</string>
+
+    <!--剪发知识-->
+    <string name="hairLayers1">层次，是指头发长短不一的样子，就像这样</string>
+    <string name="hairLayers2">层次的好处，是另头发看上去丰富、灵动，没有层次的头发给人文静的感觉，但容易呆板。\n
+                                    层次是指头发有次序的排列，其发梢呈一定的坡度，它是发型结构中的重要组成部分。修剪头发的角度与层次有密切关系。一般平形分片夹剪，形成低层次或一层次（又称无层次或齐迭层次），而垂直形分片夹剪则形成高层次。不同部位不同角度的修剪形成不同的层次。\n
+                                    顶部头发不同角度夹剪形成不同的层次。顶部头发向上垂直形分片水平形修剪，则形成层次比较适中。如向上修剪则形成低层次。向下修剪则形成高层次。</string>
+    <string name="thin1">就算是没有层次的头发，经过打薄，也会有这样清爽的感觉。</string>
+    <string name="thin2">顾名思义，打薄就是让厚重的部分看上去柔和、清爽。\n
+                            没有打薄和剪出层次的中长发，头发的重量感集中在下部，头发容易贴在头顶，显得头发少、没有活力、年龄大..;P\n
+                            中长发较多的打薄加上层次，能够解决这个问题。</string>
+    <string name="tips">1、做好心理准备，如果你没有完全的准备以及充分的心理建设，自己在家理发可是很危险的游戏，很可能一不小心第二天就没法出门见人。\n
+                        2、需要一把好用的剪刀，没有专业剪刀的话，起码要选择锋利的，请不要妄想用修眉剪来剪大片的头发。\n
+                        3、对着镜子你只能看到正面，两侧和背面的头发最好还是有朋友帮你把关，他们会及时修正你的错误，避免酿成大错。\n
+                        4、如果是第一次尝试，不要挑战高难度。从修剪刘海或者发梢开始吧，剪出层次和角度不是随便想想就能达到的，十分考验技术，所以第一次就试试统一长度的修剪技法。\n
+                        5、发头发弄湿，理发师也要弄湿头发才好控制头发，何况新手呢？\n
+                        6、防止剪下来的头发到处都是！\n
+                        7、头发一定要梳得顺直再剪，除非你是印象派！\n
+                        8、注意每股头发要相互衔接。\n
+                        9、每缕少剪一点。
+                        10、不要剪得太短。别想一刀就剪好，每次剪的比你想象的长度要稍短一些，留一点头发来保持平衡。而且，如果你是卷发，干了以后头发会比湿润的时候变短，这个因素一定要考虑进去。</string>
+
+    <!--工具-->
+    <string name="toolsToBuy1">终于着手来做了，知识丰富，行动简洁，让我们开始吧！充分的准备会让新手不会手忙脚乱，无法收拾。</string>
+    <string name="toolsToBuy2">唯一必须要买的就是这个--专业发剪，通常会附送单排梳子--另一个很好用的工具。</string>
+    <string name="toolsToFind1">其他的东西可以在家中找到，或者是代用品，有了它们，会让一个人的工作干净利索。\n
+                                    1、镜子，最好两面，放在正面和后侧面。\n
+                                    2、一块斗篷布，当然不是拌超人啦！\n
+                                      3、皮筋，后面一个最可行的方案中的主角。\n</string>
+    <string name="toolsToFind2">
+        4、夹子，如果你会给头发分片的话。
+        5、喷壶，头发很快就干啦！
+        6、水平仪，真的不需要：P\n
+    </string>
+
+    <!--两个方案-->
+    <string name="aSolution1">适合中长发的最可行方案</string>
+    <string name="aSolution2">先来看图吧！</string>
+    <string name="aSolution3">这样做是因为长度、对称、层次，一次全解决了！可以根据皮筋的位置来控制层次的高低，辫子扎得越往前，层次越高。</string>
+    <string name="aSolution4">具体操作戳这里</string>
+    <string name="urlSolution1">http://mp.weixin.qq.com/s?__biz=MzIyMDA0MzkwOA==&amp;mid=402028094&amp;idx=1&amp;sn=ec0c493e8ccae0e52a71c3fa5589e5f3&amp;scene=24&amp;srcid=0427eH2qqJtpL4Xu04h42wRZ#wechat_redirect</string>
+    <string name="bSolution">[技术贴]男生如何给自己剪头发</string>
+    <string name="urlBSolution"><![CDATA[http://mp.weixin.qq.com/s?__biz=MzAwNjA1MzQ3MA==&mid=204192884&idx=2&sn=15ebb03627b0dd7d3683c010ff2f4602&scene=24&srcid=0427SBx4dH6soBl5qrwROtsp#wechat_redirect]]></string>
+
+    <!--Extension-->
+    <string name="extend1">和所有技能一样，入了门，就可以刷怪升级。\n
+                                当你搜索“剪发基础理论时，看到的是这些：\n
+                                分区理论、抓剪、挑剪、压剪、刀尖剪、锯剪、削剪...  </string>
+    <string name="extend2">当你加入群体以后，看到的是这些：</string>
+    <string name="extendUrl">https://www.douban.com/group/cuthair/</string>
+    <string name="extend3">媛们，准备好了吗？~</string>
+
+</resources>

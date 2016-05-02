@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.studyjams.s1.sj16.weitong.SurveyNCaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/sNCTitle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <TextView
+                style="@style/SubTitle"
+                android:text="@string/sNCSurveyTitle" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"
+                android:paddingLeft="8dp" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cbImGeek"
+            style="@style/Item"
+            android:text="@string/sNCImGeek" />
+
+        <CheckBox
+            android:id="@+id/cbBarberSpoil"
+            style="@style/Item"
+            android:text="@string/sNCBarberSpoil" />
+
+        <EditText
+            android:id="@+id/etOther"
+            style="@style/Item"
+            android:selectAllOnFocus="true"
+            android:text="@string/sNCOther" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:paddingRight="8dp" />
+
+            <Button
+                style="@style/SubButton"
+                android:text="@string/btnSendMail"
+                android:onClick="submitSurvey"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/Declare"
+            android:text="@string/sNCdeclare" />
+
+        <TextView
+            style="@style/Artical"
+            android:text="@string/sNCArticle" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/SubButton"
+                android:onClick="back"
+                android:text="《-" />
+
+            <Button
+                style="@style/SubButton"
+                android:onClick="forward"
+                android:text="-》" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.studyjams.s1.sj16.weitong.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxHeight="60dp">
+
+        <ImageView
+            android:id="@+id/ivICan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/a1" />
+
+        <TextView
+            android:id="@+id/tvICan"
+            style="@style/MainMessage2"
+            android:text="@string/tvICan"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/llICan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnSurvayNCase"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnSurvayNCase" />
+
+            <Button
+                android:id="@+id/btnPsychology"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnPsychology" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnICan"
+            style="@style/MainButton"
+            android:onClick="showICan" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxHeight="60dp">
+
+        <ImageView
+            android:id="@+id/ivKnowledge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#ffccbc"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvKnowledge"
+            style="@style/MainMessage2"
+            android:text="@string/tvKnowledge"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/llKnowledge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnHairLayers"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnHairLayers" />
+
+            <Button
+                android:id="@+id/btnThin"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnThin" />
+
+            <Button
+                android:id="@+id/btnTips"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnTips" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnKnowledge"
+            style="@style/MainButton"
+            android:onClick="showKnowledge" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxHeight="60dp">
+
+        <ImageView
+            android:id="@+id/ivTools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#ffab91"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvTools"
+            style="@style/MainMessage2"
+            android:text="@string/tvTools"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/llTools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnToolsToBuy"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnToolsToBuy" />
+
+            <Button
+                android:id="@+id/btnToolsToFind"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnToolsToFind" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTools"
+            style="@style/MainButton"
+            android:onClick="showTools" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxHeight="60dp">
+
+        <ImageView
+            android:id="@+id/ivSolution"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#ff8a65"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/tvSolution"
+            style="@style/MainMessage2"
+            android:text="@string/tvSolution"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/llSolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnASolution"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnASolution" />
+
+            <Button
+                android:id="@+id/btnBSolution"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnBSolution" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSolution"
+            style="@style/MainButton"
+            android:onClick="showSolution" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxHeight="60dp">
+
+        <ImageView
+            android:id="@+id/ivExtension"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#ff7043"
+            android:scaleType="centerCrop"></ImageView>
+        <!-- android:src="@drawable/a5" />-->
+
+        <TextView
+            android:id="@+id/tvExtension"
+            style="@style/MainMessage2"
+            android:text="@string/tvExtension"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/llExtension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnLearnMore"
+                style="@style/SecendButton2"
+                android:onClick="newActivity"
+                android:text="@string/btnExtension" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnExtension"
+            style="@style/MainButton"
+            android:onClick="showExtension" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
